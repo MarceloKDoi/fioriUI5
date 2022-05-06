@@ -6,9 +6,11 @@ sap.ui.define([
     return BaseController.extend("categories.controller.App", {
 
         onInit : function () {
+            
             // apply content density mode to root view
             this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
         }
+    
     });
 
 });
